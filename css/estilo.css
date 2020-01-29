@@ -1,0 +1,16 @@
+.navbar-material .nav-wrapper .brand-logo img{
+	height: 64px;
+}
+
+/*
+La regla @media es utilizada en piticiones de media para 
+aplicar diferentes estilos. Por ejemplo, puedes especificar que
+ciertos estilos sean solo para imprimir documentos, o para pantalla,
+o para lectura. (mediatype: print, screen, o speech)
+*/
+
+@media (max-width: 600px) {
+  .navbar-material .nav-wrapper .brand-logo img {
+    height: 56px;
+  }
+}

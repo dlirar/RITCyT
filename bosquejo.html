@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Proyecto Materialize</title>
+	<link type="text/css" rel="stylesheet" href="css/materialize.css">
+	<link type="text/css" rel="stylesheet" href="css/estilos.css">	
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+	<!-- Dentro de quienes somos-> desplegar misión, visión, alcance, objetivos, contacto
+	Números
+	Usuarios
+	Autores
+	Formatos
+		Carta D.I
+		Carta S.D.
+	Organigrama
+	-->
+  <header>
+	<ul id="dropdown1" class="dropdown-content">
+	  <li><a href="#!">Iniciar sesión</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">Registrate</a></li>
+	</ul>
+	<ul id="dropdown2" class="dropdown-content">
+		<li><a href="#mision">Misión</a></li>
+		<li><a href="#vision">Visión</a></li>
+		<li><a href="#objetivos">Objetivos</a></li>
+		<li><a href="#medios">Medios</a></li>
+		<li><a href="#alcance">Alcance</a></li>
+	</ul>
+	<div class="navbar-fixed">
+		<nav>
+		<div class="nav-wrapper blue lighten-1">
+		<a href="#!" class="brand-logo">Logo</a>
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">	
+			  <!-- Dropdown Trigger -->
+			  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">¿Quiénes somos?<i class="material-icons right">arrow_drop_down</i></a></li>
+			  <li><a href="#!">Números</a></li>
+			  <li><a href="#!">Autores</a></li>
+			  <li><a href="#!">Formatos</a></li>
+			  <li><a href="#!">Organigrama</a></li>
+			  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Usuario<i class="material-icons right">arrow_drop_down</i></a></li>
+			</ul>
+		</div>
+	</nav>
+	</div>
+	<ul class="side-nav" id="mobile-demo">
+		<li><a href="#quienessomos">¿Quiénes somos?</a></li>
+	    <li><a href="#!">Números</a></li>
+		<li><a href="#!">Autores</a></li>
+		<li><a href="#!">Formatos</a></li>
+		<li><a href="#!">Organigrama</a></li>
+	</ul>
+	</header>	
+  
+  <body class="pink lighten-5">
+    <!-- importar JQuery antes de materialize.js-->
+	
+			<!-- Inicio del slider -->
+	    <div class="carousel carousel-slider center" data-indicators="true">
+				
+			<div class="carousel-fixed-item center middle-indicator">
+				<div class="left">
+					<a href="Previo" class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class=" medium material-icons left  middle-indicator-text">chevron_left</i></a>
+				</div>
+     
+				<div class="right">
+					<a href="Siguiente" class="moveNextCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="medium material-icons right middle-indicator-text">chevron_right</i></a>
+				</div>
+			</div>
+	
+			<div class="carousel-item red white-text" href="#">
+			<!--<img src="media/estudiantes.jpg" class="responsive-img">-->
+				<h2>Panel 1</h2>
+				<p class="white-text">Descripción de panel 1</p>
+			</div>
+			<div class="carousel-item amber white-text" href="#">
+			<!-- <img src="media/fes1.jpg" class="responsive-img"> -->
+			  <h2>Panel 2</h2>
+			  <p class="white-text">Descripción de panel 2</p>
+			</div>
+			<div class="carousel-item green white-text" href="#">
+			  <h2>Panel 3</h2>
+			  <p class="white-text">Descripción de panel 3</p>
+			</div>
+			<div class="carousel-item blue white-text" href="#">
+			  <h2>Panel 4</h2>
+			  
+			  <p class="white-text">Descripción de panel 4</p>
+			</div>
+		</div>
+			<!-- Fin de slider -->
+			<h5 class="center-align">Insertar lema aquí</h5>
+	<div class="container">
+		<div class="row white">
+		<h1 class="center-align"><h1 id="quienessomos">¿Quiénes somos?</h1>
+		
+			<div class="col s12 m6 center-align" id="mision">
+				<h2>Misión</h2>
+				<div class="card-panel">
+					<span class="black-text">
+					La “Revista de Iniciación Temprana a la Ciencia y a la Tecnología” 
+					tiene la misión primordial de iniciar a jóvenes estudiantes universitarios 
+					en el campo de la investigación y divulgación de la ciencia, así como 
+					incentivar y alentar a la producción de material original, de alta calidad y de 
+					interés para la comunidad científica nacional e internacional.  
+					</span>
+				</div>
+			</div>
+			
+			
+			<div class="col s12 m6 center-align" id="vision">		
+				<h2>Visión</h2>
+				<div class="card-panel">
+					<span class="black-text">
+					Ser un referente mundial de divulgación de la ciencia de acceso libre y apoyar 
+					a la comunidad estudiantil universitaria a incrementar la producción 
+					de trabajos de investigación e impulsar el desarrollo académico de los
+					mismos, a la par de fomentar la aparición de nuevos investigadores que lleguen a 
+					realizar grandes aportaciones a las diferentes áreas de conocimiento científico.  
+					</span>
+				</div>
+			</div>
+			
+			
+			<div class="col s12 center-align" id="objetivos">
+				<h2>Objetivos</h2>
+				<div class="card-panel">
+					<span class="black-text">
+					La publicación de material de calidad y alto rigor científico procedente de estudiantes 
+					universitarios que sean de interés para la comunidad estudiantil y científica nacional e
+					internacional; innovar mediante la revisión abierta por pares el proceso de admisión de los 
+					trabajos presentados así como transparentar el proceso de evaluación los mismos.  
+					</span>
+				</div>
+			</div>
+			
+			
+			<div class="col s12 center-align" id="medios">
+				<h2>Medios</h2>
+				<div class="card-panel">
+					<span class="black-text">
+					Para llevar a cabo tan ambicioso plan se realizara la publicación periódica de 
+					textos científicos digitales de acceso libre, los cuales se someterán a un riguroso 
+					proceso de selección por pares, que permita la certeza de presentar investigaciones 
+					de alta calidad y rigor científico. 
+					</span>
+				</div>
+			</div>
+			
+			
+			<div class="col s12 center-align" id="alcance">
+				<h2>Alcance</h2>
+				<div class="card-panel">
+					<span class="black-text">
+					A la comunidad estudiantil nacional e internacional hispano y angloparlante interesada
+					en presentar investigaciones de calidad y alto rigor científico
+					</span>
+				</div>
+			</div>
+			
+			
+		</div>
+		<!--Insertar colecciones en lugar de tarjetas -->
+		<div class="row">
+			<div class="col s12 m4">
+				<div class="card small hoverable">
+					<div class="card-image">
+						<img class="circle responsive-img" src="media/persona1.png">
+						<span class="card-title">Persona 1</span>
+					</div>
+					<div class="card-content">
+						<p>
+						Datos pertenecientes a la persona 1.
+						</p>
+					</div>
+					<div class="card-action">
+						<a href="#" class="btn">Contacto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card small hoverable">
+					<div class="card-image">
+						<img class="circle responsive-img" src="media/persona2.jpg">
+						<span class="card-title">Persona 2</span>
+					</div>
+					<div class="card-content">
+						<p>
+						Datos pertenecientes a la persona 2.
+						</p>
+					</div>
+					<div class="card-action">
+						<a href="#" class="btn">Contacto</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card small hoverable">
+					<div class="card-image">
+						<img class="circle responsive-img" src="media/persona3.png">
+						<span class="card-title">Persona 3</span>
+					</div>
+					<div class="card-content">
+						<p>
+						Datos pertenecientes a la persona 3.
+						</p>
+					</div>
+					<div class="card-action">
+						<a href="#" class="btn">Contacto</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+        <footer class="page-footer blue lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Pie de página</h5>
+                <p class="grey-text text-lighten-4">Contenido del pie de página del sitio</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Redes sociales</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Red social 1</a></li>
+				  <li><a class="grey-text text-lighten-3" href="#!">Red social 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright 	
+            <a class="grey-text text-lighten-4 right" href="#!">Más información</a>
+            </div>
+          </div>
+        </footer>
+		
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	
+	<script>
+	(function($){
+		$(function(){
+			$('.dropdown-button').dropdown({
+				inDuration: 300,     //Tiempo que tarda en desplegarse en pantalla, en milisegundos
+				outDuration: 225,    //Tiempo que tarda en volver al botón, en milisegundos
+				hover: true,         //Se despliega si pasan el cursor encima (hover)
+				belowOrigin: true,   //Se despliega debajo del botón
+				aligment: 'right'    //Despliega el dropdown con las esquinas alineadas a la izquierda del botón
+			});
+			 
+		});
+	})(jQuery);
+	
+	$('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: false
+   });
+	
+	$('.moveNextCarousel').click(function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      $('.carousel').carousel('next');
+	});
+	
+	// move prev carousel
+   $('.movePrevCarousel').click(function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      $('.carousel').carousel('prev');
+	});
+	
+	$(".button-collapse").sideNav();
+	</script>
+  </body>
+</html>
